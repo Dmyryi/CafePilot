@@ -8,5 +8,6 @@ namespace CafePilot.Server.Interface
         Cafe GetCafeById(Guid id);
 
         Cafe PostCafe(CafeCreateDto dto);
+        Cafe PatchCafe(CafeUpdateDto dto);
     }
 }

@@ -63,6 +63,34 @@ namespace CafePilot.Server.Services
             File.WriteAllText(_filePath, updateJson);
             return newCafe;
         }
+
+        public Cafe PatchCafe(CafeUpdateDto dto)
+        {
+         List<Cafe> allCafes = GetAllCafes();
+            var cafe = allCafes.FirstOrDefault(c => c.Id == dto.Id);
+
+            if (cafe == null) return null;
+
+            if (dto.City != null) cafe.City = dto.City;
+            if (dto.CityId != null) cafe.CityId = dto.CityId.Value;
+            if (dto.Street != null) cafe.Street = dto.Street;
+            if (dto.Geolat != null) cafe.Geolat = dto.Geolat;
+            if (dto.Geolon != null) cafe.Geolon = dto.Geolon;
+            if (dto.FotoCafe != null) cafe.FotoCafe = dto.FotoCafe;
+            if (dto.PhoneNumber != null) cafe.PhoneNumber = dto.PhoneNumber;
+            if (dto.StartWork != null) cafe.StartWork = dto.StartWork.Value;
+            if (dto.EndWork != null) cafe.EndWork = dto.EndWork.Value;
+            if (dto.Rating != null) cafe.Rating = dto.Rating.Value;
+            if (dto.WaitingTime != null) cafe.WaitingTime = dto.WaitingTime.Value;
+            if (dto.IsOpen != null) cafe.IsOpen = dto.IsOpen.Value;
+            if (dto.IsOpenDescription != null) cafe.IsOpenDescription = dto.IsOpenDescription;
+
+
+            string updatedJson = JsonSerializer.Serialize(allCafes, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(_filePath, updatedJson);
+
+            return cafe;
+        }
     }
 
    

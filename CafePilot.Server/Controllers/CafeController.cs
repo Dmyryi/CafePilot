@@ -1,6 +1,7 @@
 ﻿using CafePilot.Server.Interface;
 using CafePilot.Server.Models;
 using CafePilot.Server.Responses;
+using CafePilot.Server.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -65,6 +66,27 @@ namespace CafePilot.Server.Controllers
 
             return CreatedAtAction(nameof(GetbyId), new { id = cafeServ.Id }, cafeServ);
 
+        }
+
+        [HttpPatch("{id}")]
+        public ActionResult<Cafe> PathCafe(Guid id, [FromBody] CafeUpdateDto dto)
+        {
+            if (dto.Id != id)
+                return BadRequest("Id в URL и теле запроса не совпадают");
+
+            Cafe updated = _cafeSerice.PatchCafe(dto);
+        
+        if(updated == null)
+            {
+                return NotFound(new ErrorResponse
+                {
+                    Error = new ErrorDetail
+                    {
+                        Message = "Кав'ярню не знайдено для оновлення"
+                    }
+                });
+            }
+            return Ok(updated);
         }
 
     }
