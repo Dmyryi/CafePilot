@@ -24,5 +24,14 @@ namespace CafePilot.Server.Services
             });
             return cafes ?? new List<Cafe>();
         }
+        
+
+        public Cafe GetCafeById(int id)
+        {
+            List<Cafe> cafes = GetAllCafes();
+
+            return cafes.Find(x => x.Id == id);
+            
+        }
     }
 }

@@ -27,7 +27,7 @@ namespace CafePilot.Server.Controllers
                 {
                     Error = new ErrorDetail
                     {
-                        Code = 1001,
+                       
                         Message = "Кав'ярні не знайдено"
                     }
                 };
@@ -36,7 +36,20 @@ namespace CafePilot.Server.Controllers
             }
 
             return Ok(cafes);
-           
+
+        }
+
+
+        [HttpGet("{id}")]
+        public ActionResult<Cafe> GetbyId(int id) { 
+        Cafe cafe = _cafeSerice.GetCafeById(id);
+            Console.WriteLine(cafe);
+            if (cafe == null)
+            {
+                return NotFound(new { message = $"Кав’ярня з ID {id} не знайдена." });
+            }
+
+            return Ok(cafe);
         }
     }
 }
