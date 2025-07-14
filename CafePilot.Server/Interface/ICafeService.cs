@@ -5,7 +5,8 @@ namespace CafePilot.Server.Interface
     public interface ICafeService
     {
         List<Cafe> GetAllCafes();
-        Cafe GetCafeById(int id);
+        Cafe GetCafeById(Guid id);
 
+        Cafe PostCafe(CafeCreateDto dto);
     }
 }

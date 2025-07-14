@@ -18,20 +18,52 @@ namespace CafePilot.Server.Services
             }
 
            string json = File.ReadAllText(_filePath);
-            List<Cafe> cafes = JsonSerializer.Deserialize<List<Cafe>>(json, new JsonSerializerOptions
+            List<Cafe> allCaffe = JsonSerializer.Deserialize<List<Cafe>>(json, new JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true
             });
-            return cafes ?? new List<Cafe>();
+            return allCaffe ?? new List<Cafe>();
         }
         
 
-        public Cafe GetCafeById(int id)
+        public Cafe GetCafeById(Guid id)
         {
-            List<Cafe> cafes = GetAllCafes();
+            List<Cafe> allCaffe = GetAllCafes();
 
-            return cafes.Find(x => x.Id == id);
+            return allCaffe.Find(x => x.Id == id);
             
         }
+
+        public Cafe PostCafe(CafeCreateDto dto)
+        {
+            List<Cafe> allCaffe = GetAllCafes();
+            Cafe newCafe = new Cafe
+            {
+                Id = Guid.NewGuid(),
+                City = dto.City,
+                CityId = Guid.NewGuid(),
+                Street = dto.Street,
+                Geolat = dto.Geolat,
+                Geolon = dto.Geolon,
+                FotoCafe = dto.FotoCafe,
+                PhoneNumber = dto.PhoneNumber,
+                StartWork = new TimeSpan(8, 0, 0),
+                EndWork = new TimeSpan(20, 0, 0),
+                Rating = 0,
+                WaitingTime = 0,
+                IsOpen = 1,
+                IsOpenDescription = "Відчинено"
+            };
+
+            allCaffe.Add(newCafe);
+            string updateJson = JsonSerializer.Serialize(allCaffe, new JsonSerializerOptions
+            {
+                WriteIndented = true,
+            });
+            File.WriteAllText(_filePath, updateJson);
+            return newCafe;
+        }
     }
+
+   
 }

@@ -41,7 +41,7 @@ namespace CafePilot.Server.Controllers
 
 
         [HttpGet("{id}")]
-        public ActionResult<Cafe> GetbyId(int id) { 
+        public ActionResult<Cafe> GetbyId(Guid id) { 
         Cafe cafe = _cafeSerice.GetCafeById(id);
             Console.WriteLine(cafe);
             if (cafe == null)
@@ -51,5 +51,21 @@ namespace CafePilot.Server.Controllers
 
             return Ok(cafe);
         }
+
+        [HttpPost]
+        public ActionResult<Cafe> Post([FromBody]CafeCreateDto cafe) {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+            Cafe cafeServ = _cafeSerice.PostCafe(cafe);
+            Console.WriteLine(cafeServ.ToString());
+            if(cafeServ == null)
+            {
+                return StatusCode(500, "Помилка при створенні кафе");
+            }
+
+            return CreatedAtAction(nameof(GetbyId), new { id = cafeServ.Id }, cafeServ);
+
+        }
+
     }
 }

@@ -2,9 +2,9 @@
 {
     public class Cafe
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string City { get; set; }
-        public int CityId {  get; set; }
+        public Guid CityId {  get; set; }
         public string Street { get; set; }
         public string Geolat {  get; set; }
         public string Geolon {  get; set; }
