@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "city": "Київ",
+        "cityId": 1,
+        "street": "вул. Саксаганського, 10",
+        "buildnumber": "82А",
+        "address": "Київ вул. Саксаганського, 10",
+        "geolat": "50.442207",
+        "geolon": "30.508146",
+        "foto": {
+            "urlDesctop": "https://pizzaday.eatery.club/storage/pizzaday/restaurant/image/2037/2fb507f4e14e404a51f289c7246b9938.JPG"
+        },
+        "phonenumber": "380730836759",
+        "startwork": "10:00:00",
+        "endwork": "20:00:00",
+        "rating": 9.8,
+        "waiting_time": 30,
+        "is_open": 0,
+        "is_open_description": "Вимкнули світло"
+    },
+    {
+        "id": 2,
+        "city": "Київ",
+        "cityId": 1,
+        "street": "вул. Хрещатик, 25",
+        "buildnumber": "25",
+        "address": "Київ вул. Хрещатик, 25",
+        "geolat": "50.447731",
+        "geolon": "30.522393",
+        "foto": {
+            "urlDesctop": "https://i.imgur.com/YZSzQO1.jpg"
+        },
+        "phonenumber": "380631234567",
+        "startwork": "09:00:00",
+        "endwork": "22:00:00",
+        "rating": 9.5,
+        "waiting_time": 20,
+        "is_open": 1,
+        "is_open_description": ""
+    },
+    {
+        "id": 3,
+        "city": "Київ",
+        "cityId": 1,
+        "street": "просп. Перемоги, 45",
+        "buildnumber": "45Б",
+        "address": "Київ просп. Перемоги, 45",
+        "geolat": "50.450100",
+        "geolon": "30.442200",
+        "foto": {
+            "urlDesctop": "https://i.imgur.com/zH35YgC.jpg"
+        },
+        "phonenumber": "380679876543",
+        "startwork": "08:30:00",
+        "endwork": "23:00:00",
+        "rating": 8.7,
+        "waiting_time": 25,
+        "is_open": 1,
+        "is_open_description": ""
+    },
+    {
+        "id": 4,
+        "city": "Київ",
+        "cityId": 1,
+        "street": "вул. Володимирська, 67",
+        "buildnumber": "67",
+        "address": "Київ вул. Володимирська, 67",
+        "geolat": "50.439558",
+        "geolon": "30.512719",
+        "foto": {
+            "urlDesctop": "https://i.imgur.com/x4Jb1Eh.jpg"
+        },
+        "phonenumber": "380503334455",
+        "startwork": "11:00:00",
+        "endwork": "21:00:00",
+        "rating": 9.2,
+        "waiting_time": 35,
+        "is_open": 1,
+        "is_open_description": ""
+    },
+    {
+        "id": 5,
+        "city": "Київ",
+        "cityId": 1,
+        "street": "вул. Богдана Хмельницького, 52",
+        "buildnumber": "52А",
+        "address": "Київ вул. Богдана Хмельницького, 52",
+        "geolat": "50.446321",
+        "geolon": "30.511111",
+        "foto": {
+            "urlDesctop": "https://i.imgur.com/kvdWB7v.jpg"
+        },
+        "phonenumber": "380987654321",
+        "startwork": "10:00:00",
+        "endwork": "22:00:00",
+        "rating": 8.9,
+        "waiting_time": 28,
+        "is_open": 1,
+        "is_open_description": ""
+    },
+    {
+        "id": 6,
+        "city": "Київ",
+        "cityId": 1,
+        "street": "вул. Велика Васильківська, 34",
+        "buildnumber": "34",
+        "address": "Київ вул. Велика Васильківська, 34",
+        "geolat": "50.434327",
+        "geolon": "30.517173",
+        "foto": {
+            "urlDesctop": "https://i.imgur.com/qs5OtTY.jpg"
+        },
+        "phonenumber": "380731112233",
+        "startwork": "10:30:00",
+        "endwork": "20:30:00",
+        "rating": 9.0,
+        "waiting_time": 27,
+        "is_open": 0,
+        "is_open_description": "Технічні причини"
+    },
+    {
+        "id": 7,
+        "city": "Київ",
+        "cityId": 1,
+        "street": "просп. Лобановського, 19",
+        "buildnumber": "19Г",
+        "address": "Київ просп. Лобановського, 19",
+        "geolat": "50.409387",
+        "geolon": "30.499304",
+        "foto": {
+            "urlDesctop": "https://i.imgur.com/I2DwbPR.jpg"
+        },
+        "phonenumber": "380731234000",
+        "startwork": "09:00:00",
+        "endwork": "21:00:00",
+        "rating": 8.5,
+        "waiting_time": 33,
+        "is_open": 1,
+        "is_open_description": ""
+    },
+    {
+        "id": 8,
+        "city": "Київ",
+        "cityId": 1,
+        "street": "вул. Андріївський узвіз, 5",
+        "buildnumber": "5",
+        "address": "Київ вул. Андріївський узвіз, 5",
+        "geolat": "50.458123",
+        "geolon": "30.517345",
+        "foto": {
+            "urlDesctop": "https://i.imgur.com/bM3Mcva.jpg"
+        },
+        "phonenumber": "380731231234",
+        "startwork": "10:00:00",
+        "endwork": "20:00:00",
+        "rating": 9.3,
+        "waiting_time": 29,
+        "is_open": 1,
+        "is_open_description": ""
+    },
+    {
+        "id": 9,
+        "city": "Київ",
+        "cityId": 1,
+        "street": "вул. Пушкінська, 22",
+        "buildnumber": "22Б",
+        "address": "Київ вул. Пушкінська, 22",
+        "geolat": "50.445601",
+        "geolon": "30.512098",
+        "foto": {
+            "urlDesctop": "https://i.imgur.com/lzq9wH7.jpg"
+        },
+        "phonenumber": "380934569871",
+        "startwork": "08:00:00",
+        "endwork": "21:00:00",
+        "rating": 8.8,
+        "waiting_time": 26,
+        "is_open": 1,
+        "is_open_description": ""
+    },
+    {
+        "id": 10,
+        "city": "Київ",
+        "cityId": 1,
+        "street": "вул. Жилянська, 68",
+        "buildnumber": "68",
+        "address": "Київ вул. Жилянська, 68",
+        "geolat": "50.441765",
+        "geolon": "30.504328",
+        "foto": {
+            "urlDesctop": "https://i.imgur.com/jkLdQNa.jpg"
+        },
+        "phonenumber": "380938888888",
+        "startwork": "11:00:00",
+        "endwork": "20:00:00",
+        "rating": 9.1,
+        "waiting_time": 24,
+        "is_open": 1,
+        "is_open_description": ""
+    }
+]
