@@ -2,7 +2,8 @@
 {
     public class Order
     {
-        public Guid Id { get; set; }  
+        public Guid Id { get; set; }
+        public Guid CafeId { get; set; }
         public DateTime Date { get; set; }
         public List<OrderItem> Items { get; set; } = new();
         public double TotalPrice { get; set; }

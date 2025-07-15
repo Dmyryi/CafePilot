@@ -1,6 +1,7 @@
 [
     {
         "id": "9f32f394-9a31-4d12-a9de-83e0ae01f7e1",
+        "cafeId": "c64602d6-3d0c-4b80-bc0d-b763de1f7801",
         "phone": "+380992633738",
         "date": "2025-07-14T09:35:00",
         "items": [
@@ -18,7 +19,7 @@
             }
         ],
         "totalPrice": 126.00,
-        "status": "done",
+        "status": "Done",
         "feedback": {
             "rating": 5,
             "comment": "Смачно і швидко, дякую!"
@@ -26,6 +27,7 @@
     },
     {
         "id": "c7a5d77d-3ff1-4b1f-83e4-f1e12c17c430",
+        "cafeId": "9a3261a4-d7a2-474e-8dc1-9ec27f6a9a62",
         "phone": null,
         "date": "2025-07-14T10:15:00",
         "items": [
@@ -37,11 +39,12 @@
             }
         ],
         "totalPrice": 90.00,
-        "status": "pending",
+        "status": "Pending",
         "feedback": null
     },
     {
         "id": "92a7d882-b083-4d36-b87c-458de1d7ce20",
+        "cafeId": "60b2697a-51cb-40ff-a1e5-1071f9abfd1d",
         "phone": "+380501234567",
         "date": "2025-07-13T17:40:00",
         "items": [
@@ -59,10 +62,36 @@
             }
         ],
         "totalPrice": 141.00,
-        "status": "done",
+        "status": "Done",
         "feedback": {
             "rating": 4,
             "comment": "Матча трохи гірка, але торт супер!"
+        }
+    },
+    {
+        "id": "9f32f394-9a31-4d12-a9de-83e0ae042341",
+        "cafeId": "c64602d6-3d0c-4b80-bc0d-b763de1f7801",
+        "phone": "+380992633738",
+        "date": "2025-07-14T10:35:00",
+        "items": [
+            {
+                "productId": 1,
+                "name": "Капучино",
+                "quantity": 1,
+                "price": 58.00
+            },
+            {
+                "productId": 8,
+                "name": "Шоколадне брауні",
+                "quantity": 1,
+                "price": 68.00
+            }
+        ],
+        "totalPrice": 126.00,
+        "status": "Done",
+        "feedback": {
+            "rating": 5,
+            "comment": "Смачно і швидко, дякую!"
         }
     }
 ]
