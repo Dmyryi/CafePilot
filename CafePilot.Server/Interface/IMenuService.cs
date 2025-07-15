@@ -1,6 +1,9 @@
-﻿namespace CafePilot.Server.Interface
+﻿using CafePilot.Server.Models;
+
+namespace CafePilot.Server.Interface
 {
-    public class IMenuService
+    public interface IMenuService
     {
+        List<MenuItem> GetAll();
     }
 }

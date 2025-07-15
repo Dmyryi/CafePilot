@@ -3,88 +3,88 @@
         "id": 1,
         "name": "Капучино",
         "about": "Класичне поєднання еспресо, молока та ніжної пінки",
-        "foto": [
+        "foto": 
             {
                 "urlDesctop": "https://i.imgur.com/QQdPtuN.jpg"
             }
-        ],
+        ,
         "price": 58.00
     },
     {
         "id": 2,
         "name": "Лате",
         "about": "М'який молочний напій з порцією еспресо",
-        "foto": [
+        "foto": 
             {
                 "urlDesctop": "https://i.imgur.com/XOZYiXG.jpg"
             }
-        ],
+        ,
         "price": 62.00
     },
     {
         "id": 3,
         "name": "Еспресо",
         "about": "Міцна порція натуральної кави",
-        "foto": [
+        "foto": 
             {
                 "urlDesctop": "https://i.imgur.com/cgLu2Wq.jpg"
             }
-        ],
+        ,
         "price": 45.00
     },
     {
         "id": 4,
         "name": "Матча Лате",
         "about": "Зелений японський чай з молоком",
-        "foto": [
+        "foto": 
             {
                 "urlDesctop": "https://i.imgur.com/5fPhsAf.jpg"
             }
-        ],
+        ,
         "price": 69.00
     },
     {
         "id": 5,
         "name": "Чорний чай з бергамотом",
         "about": "Класичний англійський чай Earl Grey",
-        "foto": [
+        "foto": 
             {
                 "urlDesctop": "https://i.imgur.com/qKm28A2.jpg"
             }
-        ],
+        ,
         "price": 40.00
     },
     {
         "id": 6,
         "name": "Лимонад цитрусовий",
         "about": "Домашній лимонад з апельсином, лимоном і м’ятою",
-        "foto": [
+        "foto": 
             {
                 "urlDesctop": "https://i.imgur.com/kC7AcFW.jpg"
             }
-        ],
+        ,
         "price": 55.00
     },
     {
         "id": 7,
         "name": "Морковний торт",
         "about": "Ніжний пиріг з морквою, горіхами і крем-сиром",
-        "foto": [
+        "foto": 
             {
                 "urlDesctop": "https://i.imgur.com/TpxjWVr.jpg"
             }
-        ],
+        ,
         "price": 72.00
     },
     {
         "id": 8,
         "name": "Шоколадне брауні",
         "about": "Домашній брауні з чорного шоколаду",
-        "foto": [
+        "foto": 
             {
                 "urlDesctop": "https://i.imgur.com/VR0STkF.jpg"
             }
-        ],
+        ,
         "price": 68.00
     }
 ]
