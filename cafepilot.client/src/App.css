@@ -1,11 +1,8 @@
-﻿#root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-}
-
-th, td {
-    padding-left: 1rem;
-    padding-right: 1rem;
+﻿.pageContainer {
+  max-width: 1200px;      
+  margin: 0 auto;       
+  padding: 20px 16px;    
+  min-height: 100vh;     
+  background-color: #ffffff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); 
 }

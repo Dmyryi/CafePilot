@@ -1,0 +1,79 @@
+.dashboard {
+  display: flex;
+  flex-direction: column; /* на мобильных удобнее столбиком */
+  gap: 15px;
+  padding: 15px;
+}
+
+.card {
+  position: relative;
+  width: 100%;      /* на мобилках занимать всю ширину */
+  max-width: 350px; /* ограничим максимальную ширину */
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+  margin: 0 auto;   /* центрируем карточки */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px;
+  background: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.2));
+  color: white;
+}
+
+.topRight {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+}
+
+.bottomLeft {
+  align-self: flex-start;
+}
+
+.address {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.open {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.closed {
+  color: #e53935;
+  font-weight: bold; 
+}
+
+/* С медиазапросами для планшетов и десктопов */
+
+@media (min-width: 600px) {
+  .dashboard {
+    flex-direction: row; 
+    flex-wrap: wrap;
+ 
+    padding: 10px;
+  }
+
+  .card {
+    width: 250px;
+    margin: 0;
+    flex-shrink: 0;
+  }
+}
