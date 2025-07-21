@@ -11,6 +11,7 @@ import {
 } from 'redux-persist';
 import cafeReducer from './Cafe/slice';
 import storage from 'redux-persist/lib/storage';
+import orderReducer from './Orders/slice';
 
 const persistConfig = {
   key: 'cafe',
@@ -20,11 +21,12 @@ const persistConfig = {
 
 // Оборачиваем редьюсер в persistReducer
 const persistedCafeReducer = persistReducer(persistConfig, cafeReducer);
-
+const persistedOrderReducer = persistReducer(persistConfig, orderReducer);
 export const store = configureStore({
   reducer: {
    
     cafe: persistedCafeReducer,
+    order:persistedOrderReducer
   },
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware({

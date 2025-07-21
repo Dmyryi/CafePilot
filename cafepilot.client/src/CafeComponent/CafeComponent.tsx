@@ -22,8 +22,8 @@ const CafeList = () => {
   }, [dispatch]);
 
 
-  if (isLoading) return <p>Загрузка...</p>;
-  if (error) return <p>Ошибка: {error}</p>;
+  if (isLoading) return <p>Завантаження...</p>;
+  if (error) return <p>Помилка: {error}</p>;
 
 return (
    <div className={styles.dashboard}>
