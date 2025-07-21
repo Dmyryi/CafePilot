@@ -1,12 +1,14 @@
 [
   {
     "Id": "c64602d6-3d0c-4b80-bc0d-b763de1f7801",
-    "City": "\u041A\u0438\u0457\u0432",
+    "City": "Київ",
     "CityId": "a4c3c805-2a71-4e99-b50c-48a3122e7d12",
-    "Street": "\u0432\u0443\u043B. \u0421\u0430\u043A\u0441\u0430\u0433\u0430\u043D\u0441\u044C\u043A\u043E\u0433\u043E, 10",
+    "Street": "вул. Саксаганського, 10",
     "Geolat": "50.442207",
     "Geolon": "30.508146",
-    "FotoCafe": null,
+    "FotoCafe": {
+      "UrlDesctop": "https://bizshop.by/assets/cache_image/uploads/tovars/1645/8a81e771158d2f57723eec80f0f47798-w958-h835-big_776x530_b35.jpg"
+    },
     "PhoneNumber": "380730836759",
     "StartWork": "10:00:00",
     "EndWork": "20:00:00",
@@ -17,12 +19,14 @@
   },
   {
     "Id": "9a3261a4-d7a2-474e-8dc1-9ec27f6a9a62",
-    "City": "\u041A\u0438\u0457\u0432",
+    "City": "Київ",
     "CityId": "a4c3c805-2a71-4e99-b50c-48a3122e7d12",
-    "Street": "\u0432\u0443\u043B. \u0425\u0440\u0435\u0449\u0430\u0442\u0438\u043A, 25",
+    "Street": "вул. Хрещатик, 25",
     "Geolat": "50.447731",
     "Geolon": "30.522393",
-    "FotoCafe": null,
+    "FotoCafe": {
+      "UrlDesctop": "https://bizshop.by/assets/cache_image/uploads/tovars/1645/8a81e771158d2f57723eec80f0f47798-w958-h835-big_776x530_b35.jpg"
+    },
     "PhoneNumber": "380631234567",
     "StartWork": "09:00:00",
     "EndWork": "22:00:00",
@@ -33,12 +37,14 @@
   },
   {
     "Id": "60b2697a-51cb-40ff-a1e5-1071f9abfd1d",
-    "City": "\u041A\u0438\u0457\u0432",
+    "City": "Київ",
     "CityId": "a4c3c805-2a71-4e99-b50c-48a3122e7d12",
-    "Street": "\u043F\u0440\u043E\u0441\u043F. \u041F\u0435\u0440\u0435\u043C\u043E\u0433\u0438, 45",
+    "Street": "просп. Перемоги, 45",
     "Geolat": "50.450100",
     "Geolon": "30.442200",
-    "FotoCafe": null,
+    "FotoCafe": {
+      "UrlDesctop": "https://bizshop.by/assets/cache_image/uploads/tovars/1645/8a81e771158d2f57723eec80f0f47798-w958-h835-big_776x530_b35.jpg"
+    },
     "PhoneNumber": "380679876543",
     "StartWork": "08:30:00",
     "EndWork": "23:00:00",
@@ -49,12 +55,14 @@
   },
   {
     "Id": "a9de20ff-5308-4e00-9ec8-2343e7792d14",
-    "City": "\u041A\u0438\u0457\u0432",
+    "City": "Київ",
     "CityId": "a4c3c805-2a71-4e99-b50c-48a3122e7d12",
-    "Street": "\u0432\u0443\u043B. \u0412\u043E\u043B\u043E\u0434\u0438\u043C\u0438\u0440\u0441\u044C\u043A\u0430, 67",
+    "Street": "вул. Володимирська, 67",
     "Geolat": "50.439558",
     "Geolon": "30.512719",
-    "FotoCafe": null,
+    "FotoCafe": {
+      "UrlDesctop": "https://bizshop.by/assets/cache_image/uploads/tovars/1645/8a81e771158d2f57723eec80f0f47798-w958-h835-big_776x530_b35.jpg"
+    },
     "PhoneNumber": "380503334455",
     "StartWork": "11:00:00",
     "EndWork": "21:00:00",
@@ -64,135 +72,39 @@
     "IsOpenDescription": null
   },
   {
-    "Id": "1aa2c3e2-dcbc-4e83-9b4c-8f7158ad7d7c",
-    "City": "\u041A\u0438\u0457\u0432",
-    "CityId": "a4c3c805-2a71-4e99-b50c-48a3122e7d12",
-    "Street": "\u0432\u0443\u043B. \u0411\u043E\u0433\u0434\u0430\u043D\u0430 \u0425\u043C\u0435\u043B\u044C\u043D\u0438\u0446\u044C\u043A\u043E\u0433\u043E, 52",
-    "Geolat": "50.446321",
-    "Geolon": "30.511111",
-    "FotoCafe": null,
-    "PhoneNumber": "380987654321",
-    "StartWork": "10:00:00",
-    "EndWork": "22:00:00",
-    "Rating": 8.9,
-    "WaitingTime": 0,
-    "IsOpen": 0,
-    "IsOpenDescription": null
-  },
-  {
-    "Id": "ebae1bcd-552e-4dc5-bbf0-3b2976b3bcb3",
-    "City": "\u041A\u0438\u0457\u0432",
-    "CityId": "a4c3c805-2a71-4e99-b50c-48a3122e7d12",
-    "Street": "\u0432\u0443\u043B. \u0412\u0435\u043B\u0438\u043A\u0430 \u0412\u0430\u0441\u0438\u043B\u044C\u043A\u0456\u0432\u0441\u044C\u043A\u0430, 34",
-    "Geolat": "50.434327",
-    "Geolon": "30.517173",
-    "FotoCafe": null,
-    "PhoneNumber": "380731112233",
-    "StartWork": "10:30:00",
-    "EndWork": "20:30:00",
-    "Rating": 9,
-    "WaitingTime": 0,
-    "IsOpen": 0,
-    "IsOpenDescription": null
-  },
-  {
-    "Id": "8ad50bb3-0db8-4c3e-8f02-1a0c940f3dd4",
-    "City": "\u041A\u0438\u0457\u0432",
-    "CityId": "a4c3c805-2a71-4e99-b50c-48a3122e7d12",
-    "Street": "\u043F\u0440\u043E\u0441\u043F. \u041B\u043E\u0431\u0430\u043D\u043E\u0432\u0441\u044C\u043A\u043E\u0433\u043E, 19",
-    "Geolat": "50.409387",
-    "Geolon": "30.499304",
-    "FotoCafe": null,
-    "PhoneNumber": "380731234000",
-    "StartWork": "09:00:00",
-    "EndWork": "21:00:00",
-    "Rating": 8.5,
-    "WaitingTime": 0,
-    "IsOpen": 0,
-    "IsOpenDescription": null
-  },
-  {
-    "Id": "f7dcdf58-621e-4e7b-b105-21c36ea3e899",
-    "City": "\u041A\u0438\u0457\u0432",
-    "CityId": "a4c3c805-2a71-4e99-b50c-48a3122e7d12",
-    "Street": "\u0432\u0443\u043B. \u0410\u043D\u0434\u0440\u0456\u0457\u0432\u0441\u044C\u043A\u0438\u0439 \u0443\u0437\u0432\u0456\u0437, 5",
-    "Geolat": "50.458123",
-    "Geolon": "30.517345",
-    "FotoCafe": null,
-    "PhoneNumber": "380731231234",
-    "StartWork": "10:00:00",
-    "EndWork": "20:00:00",
-    "Rating": 9.3,
-    "WaitingTime": 0,
-    "IsOpen": 0,
-    "IsOpenDescription": null
-  },
-  {
-    "Id": "78d46dcf-c2fd-49c4-a8dc-d3be3874c2e0",
-    "City": "\u041A\u0438\u0457\u0432",
-    "CityId": "a4c3c805-2a71-4e99-b50c-48a3122e7d12",
-    "Street": "\u0432\u0443\u043B. \u041F\u0443\u0448\u043A\u0456\u043D\u0441\u044C\u043A\u0430, 22",
-    "Geolat": "50.445601",
-    "Geolon": "30.512098",
-    "FotoCafe": null,
-    "PhoneNumber": "380934569871",
-    "StartWork": "08:00:00",
-    "EndWork": "21:00:00",
-    "Rating": 8.8,
-    "WaitingTime": 0,
-    "IsOpen": 0,
-    "IsOpenDescription": null
-  },
-  {
-    "Id": "c7c56d3a-0037-489e-bbb8-14f76d5b3422",
-    "City": "\u041A\u0438\u0457\u0432",
-    "CityId": "a4c3c805-2a71-4e99-b50c-48a3122e7d12",
-    "Street": "\u0432\u0443\u043B. \u0416\u0438\u043B\u044F\u043D\u0441\u044C\u043A\u0430, 68",
-    "Geolat": "50.441765",
-    "Geolon": "30.504328",
-    "FotoCafe": null,
-    "PhoneNumber": "380938888888",
-    "StartWork": "11:00:00",
-    "EndWork": "20:00:00",
-    "Rating": 9.1,
-    "WaitingTime": 0,
-    "IsOpen": 0,
-    "IsOpenDescription": null
-  },
-  {
     "Id": "139f51e8-2e25-4948-a060-3066ec771e3f",
-    "City": "\u041A\u0438\u0457\u0432",
+    "City": "Київ",
     "CityId": "cb7cc020-dbaa-4de9-a2dd-045868d9f558",
-    "Street": "\u0432\u0443\u043B. \u041D\u0430\u0442\u0430\u043B\u0456\u0457 \u0423\u0436\u0432\u0456\u0439, 5",
+    "Street": "вул. Наталії Ужвій, 5",
     "Geolat": "50.30074",
     "Geolon": "30.26321",
     "FotoCafe": {
       "UrlDesctop": "images.png"
     },
-    "PhoneNumber": "\u002B380992633738",
+    "PhoneNumber": "+380992633738",
     "StartWork": "08:00:00",
     "EndWork": "20:00:00",
     "Rating": 0,
     "WaitingTime": 0,
     "IsOpen": 1,
-    "IsOpenDescription": "\u0412\u0456\u0434\u0447\u0438\u043D\u0435\u043D\u043E"
+    "IsOpenDescription": "Відчинено"
   },
   {
     "Id": "7b822db5-9529-4a42-aee9-e3c4328ae411",
-    "City": "\u041A\u0438\u0457\u0432",
+    "City": "Київ",
     "CityId": "65465f5c-64cb-44c0-b76e-defb4a0728e3",
-    "Street": "\u0432\u0443\u043B. \u041D\u0430\u0442\u0430\u043B\u0456\u0457 \u0423\u0436\u0432\u0456\u0439, 6",
+    "Street": "вул. Наталії Ужвій, 6",
     "Geolat": "50.30074",
     "Geolon": "30.26321",
     "FotoCafe": {
       "UrlDesctop": "images.png"
     },
-    "PhoneNumber": "\u002B380992633738",
+    "PhoneNumber": "+380992633738",
     "StartWork": "08:00:00",
     "EndWork": "20:00:00",
     "Rating": 9.9,
     "WaitingTime": 0,
     "IsOpen": 0,
-    "IsOpenDescription": "\u0427\u0435\u043A\u0430\u0454\u043C\u043E \u0441\u0432\u0456\u0442\u043B\u043E"
+    "IsOpenDescription": "Чекаємо світло"
   }
 ]
